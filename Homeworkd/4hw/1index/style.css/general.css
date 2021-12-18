@@ -1,0 +1,75 @@
+
+.paragraph {
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: column;
+    
+    /* padding: 100px 50px 0; */
+}
+.body_text {
+    color: snow;
+    /* line-height: 2em; */
+    padding: 57px 0px 0 0;
+}
+.title1 {
+    font-size: 15px;
+    margin: 50px 0 23px;
+}
+.title2 {
+    font-size: 30px;
+}
+.text {
+    font-size: 16px;
+    width: 59%;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.text > a {
+    color: rgb(161, 36, 233);
+}
+.sub {
+    background-color: red;
+    width: 151px;
+    border-radius: 20px;
+    margin-top: 31px;
+    margin-left: 16px;
+    padding: 8px;
+}
+
+.block_box {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    margin: 25px 0 0 0;
+    /* padding: 20px; */
+}
+
+
+.box {
+    width: 20%;
+    background-color: rgb(185, 99, 99);
+    border-radius: 10px;
+    display: inline;
+    padding: 32px;
+    margin: 0px 0px 0 0px;
+}
+
+
+
+.boxtext {
+    color: #fff;
+    /* width: 0%; */
+}
+.boxtext > i {
+    font-size: 25px;
+    margin: 8px 77px 0;
+}
+.boxtext > h1 {
+    font-size: 20px;
+    margin: 15px 33px 15px 33px;
+    width: 85%;
+}
+
+.boxtext > p {
+    padding: 0 0px;
+}

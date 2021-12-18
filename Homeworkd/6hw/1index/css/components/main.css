@@ -1,0 +1,49 @@
+.main {
+    background-color: darkslateblue;
+    height: 800px;
+    margin: 0 auto ;
+    padding: 0 0;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+.animation {
+    /* margin-top: 0 auto;
+    padding-top: 20px; */
+    display: block;
+    width: 55px;
+    height: 55px;
+    /* position: relative; */
+    background-color: darkkhaki;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    /* cursor: pointer; */
+    
+}
+
+.content:hover .animation{
+    animation-play-state: paused;
+}
+
+@keyframes circle {
+    0% {
+        background-color: lemonchiffon;
+        /* margin-left: 0%; */
+    }
+    50% {
+        background-color: darkslateblue;
+        /* margin-left: 50%; */
+    }
+    100% {
+        background-color: darkkhaki;
+        /* margin-left: 100%; */
+    }
+}

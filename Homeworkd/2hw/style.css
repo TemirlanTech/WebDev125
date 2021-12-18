@@ -1,0 +1,22 @@
+.text{
+    color: rgb(11, 213, 228);
+    font-size: 50px;
+}
+.banana {
+    background-color: yellow;
+}
+.orange {
+    background-color: orange;
+}
+.Apple {
+    background-color: greenyellow;
+}
+.grape {
+    background-color: indigo;
+}
+.strberry {
+    background-color: red;
+}
+.general {
+    width: 350px;
+}

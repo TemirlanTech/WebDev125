@@ -1,0 +1,28 @@
+.main {
+    background-color: blanchedalmond;
+    height: 300px;
+}
+
+.animation {
+    margin-top: 20px;
+    width: 55px;
+    height: 55px;
+    background-color: blue;
+    animation-name: square;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+}
+
+@keyframes square {
+    0% {
+        margin-left: 0
+    }
+    50% {
+        margin-left: 50%;
+        
+    }
+}
